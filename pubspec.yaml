@@ -22,6 +22,7 @@ flutter:
 
   assets:
     - assets/waifu.jpg  # Make sure this path matches your actual file location
+    - assets/alkyora_logo.png
 
   fonts:
     - family: CherryBombOne  # Changed to match the actual font name
