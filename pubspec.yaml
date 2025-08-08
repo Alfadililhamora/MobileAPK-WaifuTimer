@@ -1,0 +1,30 @@
+name: belajar1
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"  # More precise SDK constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/waifu.jpg  # Make sure this path matches your actual file location
+
+  fonts:
+    - family: CherryBombOne  # Changed to match the actual font name
+      fonts:
+        - asset: fonts/CherryBombOne-Regular.ttf
+          weight: 400  # Explicit weight for better control
